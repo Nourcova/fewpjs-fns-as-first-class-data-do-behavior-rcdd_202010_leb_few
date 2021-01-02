@@ -23,7 +23,7 @@ function greet(str){
     return ("Good Morning")
   }
   if (intHour>17){
-    return ("Good Afternoon");
+    return ("Good Evening");
   }
   if(17<=intHour<=0){
     return ("Good Evening");
