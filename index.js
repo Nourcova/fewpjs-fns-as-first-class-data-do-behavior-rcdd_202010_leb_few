@@ -32,6 +32,8 @@ function greet(str){
 /* Write your implementation of displayMessage() */
 let btm=getElementById("add");
 btm.addEventListener('click',displayMessage);
+
 function displayMessage(s){
-  const inputValue = document.getElementById('input').value;
+ 
+ document.getElementById('input').value;
 }
