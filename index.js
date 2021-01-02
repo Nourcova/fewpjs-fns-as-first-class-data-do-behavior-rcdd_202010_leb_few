@@ -10,4 +10,28 @@ function handleClick(e) {
 /* End Given Code, don't edit above here...*/
 
 /* Write your implementation of greet() */
+function greet(str){
+ let hour="";
+ let min="";
+ for (let i in str){
+    if (i<=1){
+    hour+=str[i];
+    }
+  }
+  let intHour=parseInt(hour);
+  if (0<intHour<12){
+    return ("Good Morning")
+  }
+  if (12<=intHour<17){
+    return ("Good Afternoon");
+  }
+  if(17<=intHour<=0){
+    return ("Good Evening");
+  }
+}
 /* Write your implementation of displayMessage() */
+let btm=getElementById("add");
+btm.addEventListener('click',displayMessage);
+function displayMessage(s){
+  const inputValue = document.getElementById('input').value;
+}
