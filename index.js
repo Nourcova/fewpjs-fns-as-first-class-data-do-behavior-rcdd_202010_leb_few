@@ -19,7 +19,7 @@ function greet(str){
     }
   }
   let intHour=parseInt(hour);
-  if (0<intHour<12){
+  if (intHour<12){
     return ("Good Morning")
   }
   if (12<=intHour<17){
