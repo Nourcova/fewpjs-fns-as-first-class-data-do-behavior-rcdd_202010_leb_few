@@ -35,5 +35,5 @@ btm.addEventListener('click',displayMessage);
 
 function displayMessage(s){
  
- document.getElementById('input').value;
+ document.getElementById('input').innerText=s;
 }
