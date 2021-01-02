@@ -25,9 +25,9 @@ function greet(str){
   if (intHour>17){
     return ("Good Evening");
   }
-  if(17<=intHour<=0){
-    return ("Good Evening");
-  }
+ 
+    return ("Good Afternoon");
+  
 }
 /* Write your implementation of displayMessage() */
 let btm=getElementById("add");
